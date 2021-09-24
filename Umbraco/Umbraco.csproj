@@ -347,6 +347,19 @@
     <Content Include="Views\Partials\Grid\Bootstrap3.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap3-Fluid.cshtml" />
     <Content Include="Views\Partials\BlockList\Default.cshtml" />
+    <Content Include="Views\ForgotPassword.cshtml" />
+    <Content Include="Views\Home.cshtml" />
+    <Content Include="Views\Login.cshtml" />
+    <Content Include="Views\Master.cshtml" />
+    <Content Include="Views\Register.cshtml" />
+    <Content Include="Views\ResetPassword.cshtml" />
+    <Content Include="Views\Detail.cshtml" />
+    <Content Include="Views\Edit.cshtml" />
+    <Content Include="Views\Layout.cshtml" />
+    <Content Include="Views\Partials\Content.cshtml" />
+    <Content Include="Views\Partials\Datatable.cshtml" />
+    <Content Include="Views\Partials\Header.cshtml" />
+    <Content Include="Views\Partials\Sidebar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
