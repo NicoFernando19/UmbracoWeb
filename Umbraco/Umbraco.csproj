@@ -323,9 +323,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Data\Models\Contents.generated.cs" />
+    <Compile Include="App_Data\Models\Department.generated.cs" />
+    <Compile Include="App_Data\Models\Departments.generated.cs" />
     <Compile Include="App_Data\Models\DetailEmployee.generated.cs" />
     <Compile Include="App_Data\Models\EditEmployee.generated.cs" />
+    <Compile Include="App_Data\Models\Employe.generated.cs" />
     <Compile Include="App_Data\Models\Employee.generated.cs" />
+    <Compile Include="App_Data\Models\Employees.generated.cs" />
     <Compile Include="App_Data\Models\File.generated.cs" />
     <Compile Include="App_Data\Models\Folder.generated.cs" />
     <Compile Include="App_Data\Models\ForgotPassword.generated.cs" />
@@ -344,6 +348,12 @@
     <Compile Include="Controllers\ApisController.cs" />
     <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Databases\AddDepartmentTable.cs" />
+    <Compile Include="Databases\AddEmployeeTable.cs" />
+    <Compile Include="Databases\EmployeeComponents.cs" />
+    <Compile Include="Databases\EmployeeComposer.cs" />
+    <Compile Include="Databases\Entities\Department.cs" />
+    <Compile Include="Databases\Entities\Employee.cs" />
     <Compile Include="Models\LoginFormModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -13,9 +13,9 @@
 		<meta charset="UTF-8">
 
 		<title>@ViewData["Title"]</title>
-		<meta name="keywords" content="HTML5 Admin Template" />
-		<meta name="description" content="Porto Admin - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta name="keywords" content="@Model.Value("keyword")" />
+		<meta name="description" content="@Model.Value("description")">
+		<meta name="author" content="@Model.Value("author")">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
